@@ -1,0 +1,17 @@
+body {
+  overflow-y: scroll;
+}
+.fade-in-horiz {
+  animation: fadeInHoriz 800ms ease forwards;
+}
+
+@keyframes fadeInHoriz {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
